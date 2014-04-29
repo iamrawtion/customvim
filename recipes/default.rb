@@ -10,6 +10,6 @@
 include_recipe "vim"
 
 template "/home/vagrant/.vimrc" do
-  source .vimrc
+  source ".vimrc"
 end
 
